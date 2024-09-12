@@ -1,0 +1,19 @@
+.btncon button{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    font-size: 40px;
+    background-color:rgb(53, 53, 53);
+    border-radius: 50px;
+    color: white;
+    margin: 5px;
+    width: 50px;
+    border-style: none;
+    &:hover{
+        /* border: 1px solid white; */
+        background-color: rgb(22, 22, 22);
+        /* font-size: 34px;
+        padding: 6px; */
+    }
+}
+
