@@ -24,12 +24,16 @@ function App() {
   }
   return (
     <><center>
-      <h1>This is a Calculator</h1>
+      
       <div className={styles.calculator}>
+      {/* <h1>This is a Calculator</h1> */}
        <Display displayValue={calVal}></Display>
         <ButtonContainer onClickHendler={onClickHendler}></ButtonContainer>
       </div>
+      
       </center>
+      <footer className={styles.footer}>Made by Vinay Kotiya</footer>
+
     </>
   )
 }

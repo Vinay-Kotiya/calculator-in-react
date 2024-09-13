@@ -1,9 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
 .calculator {
    border: 1px solid black;
    padding: 10px;
    width: 200px;
    border-radius: 5px;
    background-color: black;
+  
 }
 
 .calculator .btncon button{
@@ -24,4 +37,10 @@
         padding: 6px; */
     }
 }
-
+.footer{
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
