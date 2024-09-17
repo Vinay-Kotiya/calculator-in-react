@@ -14,8 +14,18 @@ function App() {
     }
     else if(buttonText==='=')
     {
-      const result=eval(calVal);
-      setCalval(result);
+      if(calVal==null)
+      {
+        console.log("enter value");
+        setCalval("Enter Value");
+      }
+      else{
+        const result=eval(calVal);
+        setCalval(result);
+      }
+      // const result=eval(calVal);
+      //   setCalval(result);
+      
     }
     else{
       const newvalu=calVal+buttonText;
