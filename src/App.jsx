@@ -18,6 +18,7 @@ function App() {
       {
         // console.log("enter value");
         alert("Enter Value");
+        setCalval("");
       }
       else{
         const result=eval(calVal);
