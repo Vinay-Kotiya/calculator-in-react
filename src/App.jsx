@@ -16,8 +16,8 @@ function App() {
     {
       if(calVal==null)
       {
-        console.log("enter value");
-        setCalval("Enter Value");
+        // console.log("enter value");
+        alert("Enter Value");
       }
       else{
         const result=eval(calVal);
